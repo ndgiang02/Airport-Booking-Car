@@ -5,7 +5,6 @@ This project is a cross-platform mobile application for airport transportation, 
 - **[Backend API](https://github.com/ndgiang02/Airport-Booking-Car-Backend)**: A Laravel-based RESTful API to handle bookings, user management, and transactions.
 
 ## Features
-- **User Management**: Role-based access for customers, drivers, and administrators.
 - **Push Notifications**: Integrated Firebase for notifications about ride status and updates.
 - **Real-Time Location Tracking**: Track the location of drivers in real-time using the mobile app.
 - **Booking System**: Seamless booking of airport transportation with confirmation and status updates.
