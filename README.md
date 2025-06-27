@@ -1,8 +1,8 @@
 This project is a cross-platform mobile application for airport transportation, consisting of three main parts:
 
-- **[Client App](https://github.com/ndgiang02/Airport-Booking-Car-Client)**: A Flutter-based mobile app for customers to book rides.
-- **[Driver App](https://github.com/ndgiang02/Airport-Booking-Car-Driver)**: A Flutter-based mobile app for drivers to manage and accept ride requests.
-- **[Backend API](https://github.com/ndgiang02/Airport-Booking-Car-Backend)**: A Laravel-based RESTful API to handle bookings, user management, and transactions.
+- **[Client App]**: A Flutter-based mobile app for customers to book rides.
+- **[Driver App]**: A Flutter-based mobile app for drivers to manage and accept ride requests.
+- **[Backend API]**: A Laravel-based RESTful API to handle bookings, user management, and transactions.
 
 ## Features
 - **Push Notifications**: Integrated Firebase for notifications about ride status and updates.
