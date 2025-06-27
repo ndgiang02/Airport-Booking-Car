@@ -1,0 +1,270 @@
+// Dang ki 
+{
+    "name": "ThUA",
+    "email": "muaha.vang03@gmail.com",
+    "password": "password123",
+    "mobile": "03666666666"
+    "user_type":"customer"
+  }
+
+  //Dang ki tai xe
+  {
+    {
+        "name": "Jane Smith",
+        "email": "janesmith@example.com",
+        "password": "password123",
+        "mobile": "0987654321",
+        "user_type": "driver",
+        "license_no": "ABC123456",
+        "vehicle_type": "sedan",
+        "license_plate": "79A-12345",
+        "seating_capacity": 5,
+        "brand": "Toyota",
+        "color": "Black"
+    }
+    
+}
+
+//up date driver location
+{
+    "latitude": 10.7769,
+    "longitude": 106.70098
+}
+
+Hai phong: 20.864596, 106.68344000000002
+
+
+
+// Tao chuyen
+{
+    "customer_id": 1,
+    "from_address": "123 Nguyen Hue, District 1, HCMC",
+    "from_lat": 10.7870067,
+    "from_lng": 106.6380877,
+    "to_address": "456 Tran Hung Dao, District 5, HCMC",
+    "to_lat": 10.762622,
+    "to_lng": 106.660172,
+    "scheduled_time": "2024-09-13 14:30:00",
+    "km": 15,
+    "total_amount": 150000,
+    "payment": "cash",
+    "round_trip": true,
+    "return_time": "2024-09-13 17:30:00",
+    "stops": [
+        {
+            "stop_address": "789 Le Loi, District 1, HCMC",
+            "stop_lat": 10.7778,
+            "stop_lng": 106.6957,
+            "stop_order": 1
+        }
+    ]
+}
+
+
+php artisan storage:link
+ php artisan db:seed
+
+ php artisan queue:table
+php artisan migrate
+
+php artisan queue:work
+
+
+
+ 4D7Y4GAEXDE1PBN9J1F7789F
+
+
+
+ {
+    "message": "Register successful",
+    "status": true,
+    "data": {
+        "user": {
+            "id": 1,
+            "name": "John Doe",
+            "email": "john.doe@example.com",
+            "mobile": "0123456789",
+            "user_type": "driver",
+            "status": "active",
+            "token": null
+        },
+        "driver": {
+            "id": 1,
+            "user_id": 1,
+            "license_no": "D123456",
+            "rating": 5,
+            "available": false,
+            "vehicle": {
+                "driver_id": 1,
+                "vehicle_type_id": 1,
+                "brand": "Toyota",
+                "color": "Black",
+                "license_plate": "ABC123",
+                "vehicle_type": {
+                    "id": 1,
+                    "type": "hatchback",
+                    "name": "HATCHBACK",
+                    "seating_capacity": 4,
+                    "starting_price": "15000.00",
+                    "rate_per_km": "7000.00",
+                    "image": "http://localhost:8000/storage/image_vehicle/hatback.png"
+                }
+            }
+        }
+    }
+}
+
+
+
+
+{
+    "name": "Nguyen Duy Giang",
+    "email": "caugiang0210@gmail.com",
+    "password": "03214563",
+    "mobile": "0847111862",
+    "user_type": "driver",
+    "license_no": "TET02103 ",
+    "vehicle_type_id": 2    ,
+    "license_plate": "30K-888.66",
+    "model":"Camry",
+    "brand": "Toyota",
+    "color": "Black"
+}
+
+
+{
+    "message": "Register successful",
+    "status": true,
+    "data": {
+        "user": {
+            "id": 1,
+            "name": "Nguyen Duy Giang",
+            "email": "caugiang0210@gmail.com",
+            "mobile": "0847111862",
+            "user_type": "driver",
+            "status": "active",
+            "token": "1|UfuKkULPxEmExWrmpYiYd8niDQ0yc6lJwsVYx9mS72615b81"
+        },
+        "token": "1|UfuKkULPxEmExWrmpYiYd8niDQ0yc6lJwsVYx9mS72615b81",
+        "driver": {
+            "id": 1,
+            "user_id": 1,
+            "license_no": "TET02103",
+            "rating": 5,
+            "available": false,
+            "vehicle": {
+                "driver_id": 1,
+                "vehicle_type_id": 2,
+                "brand": "Toyota",
+                "model": "Camry",
+                "color": "Black",
+                "license_plate": "30K-888.66",
+                "vehicle_type": {
+                    "id": 2,
+                    "type": "sedan",
+                    "name": "SEDAN",
+                    "seating_capacity": 4,
+                    "starting_price": "20000.00",
+                    "rate_per_km": "8000.00",
+                    "image": "http://localhost:8000/storage/image_vehicle/sedan.png"
+                }
+            }
+        }
+    }
+}
+
+
+
+Cảng Hàng Không Quốc Tế Tân Sơn Nhất Ga Quốc Nội Phường 2, Quận Tân Bình, Thành Phố Hồ Chí Minh, to_lat: 10.813373, to_lng: 106.662531
+
+Cảng Hàng Không Quốc Tế Nội Bài Ga Hàng Hóa Xã Phú Minh, Huyện Sóc Sơn, Thành Phố Hà Nội, to_lat: 21.211425, to_lng: 105.809189
+
+ 
+{
+    "customer_id": 1,
+    "from_address": "123 Main Street",
+    "from_lat": 10.7878806,
+    "from_lng": 106.6374324,
+    "to_address": "456 Elm Street",
+    "to_lat": 10.780000,
+    "to_lng": 106.700000,
+    "scheduled_time": "2024-09-30 15:00:00",
+    "km": 15.5,
+    "total_amount": 150.0,
+    "payment": "cash",
+    "round_trip": true,
+    "return_time": "2024-09-30 17:00:00",
+    "stops": [
+        {
+            "stop_address": "789 Oak Street",
+            "stop_lat": 10.770000,
+            "stop_lng": 106.680000,
+            "stop_order": 1
+        }
+    ]
+}
+
+  Future<void> saveUserData(UserModel userModel, DriverModel driverModel, Vehicle? vehicleModel) async {
+    prefs.setInt('user_id', userModel.data!.user!.id!);
+    prefs.setString('user_name', userModel.data!.user!.name!);
+    prefs.setString('user_email', userModel.data!.user!.email!);
+    prefs.setString('user_mobile', userModel.data!.user!.mobile!);
+    prefs.setString('user_type', userModel.data!.user!.userType!);
+    prefs.setString('user_status', userModel.data!.user!.status!);
+
+    prefs.setInt('driver_id', driverModel.data!.id!);
+    prefs.setString('license_no', driverModel.data!.licenseNo!);
+    prefs.setDouble('rating', driverModel.data!.rating!);
+    prefs.setInt('available', driverModel.data!.available! as int);
+
+    if (vehicleModel != null) {
+      prefs.setInt('vehicle_type_id', vehicleModel.vehicleTypeId!);
+      prefs.setString('vehicle_brand', vehicleModel.brand!);
+      prefs.setString('vehicle_model', vehicleModel.model!);
+      prefs.setString('vehicle_license_plate', vehicleModel.licensePlate!);
+      prefs.setString('vehicle_color', vehicleModel.color!);
+    }
+    prefs.setString('auth_token', userModel.data!.token!);
+  }
+
+   nginx-proxy:
+    image: nginx:latest
+    container_name: nginx-proxy
+    ports:
+      - "80:80"  # Lắng nghe yêu cầu HTTP trên cổng 80
+      - "443:443"  # Lắng nghe yêu cầu HTTPS (nếu có)
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf  # Tệp cấu hình Nginx
+    depends_on:
+      - app  # Trỏ về ứng dụng Laravel
+    networks:
+      - app-network
+
+volumes:
+  dbdata:
+
+  http {
+    server {
+        listen 80;
+        server_name yourdomain.com www.yourdomain.com;  # Thay thế bằng tên miền của bạn
+
+        location / {
+            proxy_pass http://app:80;  # Trỏ đến ứng dụng PHP
+            proxy_http_version 1.1;
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_set_header Connection 'upgrade';
+            proxy_set_header Host $host;
+            proxy_cache_bypass $http_upgrade;
+        }
+
+        location /api/ {
+            proxy_pass http://python-api:5000;  # Trỏ đến API Python
+            proxy_http_version 1.1;
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_set_header Connection 'upgrade';
+            proxy_set_header Host $host;
+            proxy_cache_bypass $http_upgrade;
+        }
+    }
+}
+
